@@ -145,14 +145,13 @@
 }
 
 .waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
     margin-top: 45px;
 }
 
-.waiting .waiting_wrapper .waiting_item {
-    display: inline-block;
-    vertical-align: top;
+.waiting .waiting_wrapper .waiting_item {    
     width: 339px;
-    margin: 0 15px;
 } 
 
 .waiting .waiting_wrapper .waiting_item .waiting_img{
@@ -166,3 +165,20 @@
     font-size: 15px;
     font-weight: 300;
 } 
+
+.flex_container {
+    display: flex;
+    justify-content: space-around ; /* выравнивание по гл оси*/
+    /* flex-direction: column; */ /* меняем главную ось на вертикальную */
+    align-items: center; /* выравнивание по попереч оси */
+    flex-wrap: wrap;
+    height: 400px;
+}
+
+.flex_item {
+    margin: 0 50px;
+    text-align: center;
+    height: 140px;
+    width: 100px;
+    background-color: deeppink;   
+}
