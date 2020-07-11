@@ -8,6 +8,7 @@
     width: 1140px;
     margin: 0 auto;
     text-align: center;
+    position: relative;
 }
 
 .header {
@@ -181,4 +182,40 @@
     height: 140px;
     width: 100px;
     background-color: deeppink;   
+}
+
+.optimization {
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    text-align: left;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-left: 391px;
+    margin-top: 25px;
+    text-align: left;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+}
+
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    left: -240px;
+    top: -24px;
+    z-index: -1;
 }
